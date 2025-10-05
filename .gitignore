@@ -1,16 +1,13 @@
-﻿
-/Ink Canvas/obj
-/Ink Canvas/bin
 
-/Ink-Canvas-Better/obj
-/Ink-Canvas-Better/bin
+Ink Canvas/obj/
+Ink Canvas/bin/
 
-/Ink-Canvas-Better.Core/obj
-/Ink-Canvas-Better.Core/bin
+Ink-Canvas-Better.Core/obj/
+Ink-Canvas-Better.Core/bin/
 
-/Ink-Canvas-Better.Controls/obj
-/Ink-Canvas-Better.Controls/bin
+Ink-Canvas-Better.Controls/obj/
+Ink-Canvas-Better.Controls/bin/
 
-/.vs
+.vs/
 
 .claudiaideconfig
