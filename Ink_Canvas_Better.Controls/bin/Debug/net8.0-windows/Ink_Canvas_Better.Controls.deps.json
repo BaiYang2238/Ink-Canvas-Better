@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Ink_Canvas_Better.Controls/1.0.0": {
+        "runtime": {
+          "Ink_Canvas_Better.Controls.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ink_Canvas_Better.Controls/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

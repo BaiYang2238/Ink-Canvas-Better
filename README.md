@@ -1,5 +1,5 @@
 > [!NOTE]
-> 由于 BaiYang2238 近期忙于私事，接下来本项目将会由 TheMoonOfYesterMoon 接手  
+> 由于 BaiYang2238 近期忙于私事，接下来本项目将会由 ThreeMonthAgo 接手  
 >
 > **:construction: 本软件正在重写 :construction:**  
 > 可以先去 [Actions](https://github.com/BaiYang2238/Ink-Canvas-Better/actions) 提前体验（但不建议直接使用，因为还没做完，很多功能未完善）

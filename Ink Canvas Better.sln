@@ -5,9 +5,11 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ink Canvas", "Ink Canvas\Ink Canvas.csproj", "{8D0EDFC7-F974-4571-BC49-6F3A6653FE81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Core", "Ink-Canvas-Better.Core\Ink_Canvas_Better.Core.csproj", "{19170E1A-D18A-4F90-8183-A9B0CA27A4FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Old", "Ink_Canvas_Better.Old\Ink_Canvas_Better.Old.csproj", "{19170E1A-D18A-4F90-8183-A9B0CA27A4FB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Controls", "Ink-Canvas-Better.Controls\Ink_Canvas_Better.Controls.csproj", "{8E285A55-2549-4E53-807D-F6A0010E3051}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Controls", "Ink_Canvas_Better.Controls\Ink_Canvas_Better.Controls.csproj", "{8E285A55-2549-4E53-807D-F6A0010E3051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Core", "Ink_Canvas_Better.Core\Ink_Canvas_Better.Core.csproj", "{DE50E170-933A-4ADD-BA9C-7256423D8ECE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +85,26 @@ Global
 		{8E285A55-2549-4E53-807D-F6A0010E3051}.Release|x64.Build.0 = Release|Any CPU
 		{8E285A55-2549-4E53-807D-F6A0010E3051}.Release|x86.ActiveCfg = Release|Any CPU
 		{8E285A55-2549-4E53-807D-F6A0010E3051}.Release|x86.Build.0 = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|ARM.Build.0 = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|x64.Build.0 = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Debug|x86.Build.0 = Debug|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|ARM.ActiveCfg = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|ARM.Build.0 = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|ARM64.Build.0 = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|x64.ActiveCfg = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|x64.Build.0 = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|x86.ActiveCfg = Release|Any CPU
+		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

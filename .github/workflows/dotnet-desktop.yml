@@ -38,24 +38,10 @@ jobs:
     - name: Build the solution
       run: |
         msbuild -t:restore /p:GitFlow="Github Action"
-        msbuild -target:"Ink-Canvas-Better.Core" /p:Configuration=Release /p:Platform="Any CPU" /p:GitFlow="Github Action"
+        msbuild -target:"Ink_Canvas_Better.Core" /p:Configuration=Release /p:Platform="Any CPU" /p:GitFlow="Github Action"
       env:
         Configuration: ${{ matrix.configuration }}
 
-    - name: Build the solution (x64)
-      run: |
-        msbuild -t:restore /p:GitFlow="Github Action"
-        msbuild -target:"Ink-Canvas-Better.Core" /p:Configuration=Release /p:Platform="x64" /p:GitFlow="Github Action"
-      env:
-        Configuration: ${{ matrix.configuration }}
-
-    - name: Build the solution (ARM64)
-      run: |
-        msbuild -t:restore /p:GitFlow="Github Action"
-        msbuild -target:"Ink-Canvas-Better.Core" /p:Configuration=Release /p:Platform="ARM64" /p:GitFlow="Github Action"
-      env:
-        Configuration: ${{ matrix.configuration }}
-        
     # 上传编译成品
     - name: Upload to artifact
       uses: actions/upload-artifact@main
