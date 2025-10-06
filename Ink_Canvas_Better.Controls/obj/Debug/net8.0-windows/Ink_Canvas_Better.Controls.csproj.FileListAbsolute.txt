@@ -1,0 +1,17 @@
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\bin\Debug\net8.0-windows\Ink_Canvas_Better.Controls.deps.json
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\bin\Debug\net8.0-windows\Ink_Canvas_Better.Controls.dll
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\bin\Debug\net8.0-windows\Ink_Canvas_Better.Controls.pdb
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Resources\Fonts\Fonts.baml
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Themes\ColorResources_light.baml
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Themes\Generic.baml
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls_MarkupCompile.cache
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls.g.resources
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls.AssemblyInfoInputs.cache
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls.AssemblyInfo.cs
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls.csproj.CoreCompileInputs.cache
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls.sourcelink.json
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls.dll
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\refint\Ink_Canvas_Better.Controls.dll
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\Ink_Canvas_Better.Controls.pdb
+D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\ref\Ink_Canvas_Better.Controls.dll
