@@ -6,14 +6,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Markup;
 
 namespace Ink_Canvas_Better.Controls.Controls.Panel
 {
     [ContentProperty("Child")]
-    public partial class Subpanel : Popup
+    public partial class Subpanel : ExPopup
     {
         static Subpanel()
         {

@@ -1,0 +1,45 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="DefaultBackgroundColor" Opacity="1" Color="#121212"/>
+    <SolidColorBrush x:Key="DefaultBackgroundColor_Opacity" Opacity="0.88" Color="#121212"/>
+    <SolidColorBrush x:Key="DefaultForegroundColor" Opacity="1" Color="#E0E0E0"/>
+
+    <SolidColorBrush x:Key="BorderBrush" Opacity="0.85" Color="CadetBlue"/>
+
+    <SolidColorBrush x:Key="ICBButtonStateEnable" Opacity="0.9" Color="LightBlue"/>
+
+    <DrawingImage x:Key="Image.Others.Icon">
+        <DrawingImage.Drawing>
+            <DrawingGroup>
+                <GeometryDrawing Brush="{DynamicResource DefaultForegroundColor}">
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry
+                            FillRule="EvenOdd"
+                            Figures="m12,0h4v152h-4C5.38,152,0,146.62,0,140V12C0,5.38,5.38,0,12,0Z"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{DynamicResource DefaultForegroundColor}">
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry
+                            FillRule="EvenOdd"
+                            Figures="m56,56.15v39.71c0,8.78-9.12,14.59-17.07,10.88l-8-3.73c-4.23-1.97-6.93-6.21-6.93-10.88v-32.25c0-4.66,2.7-8.91,6.93-10.88l8-3.73c7.96-3.71,17.07,2.1,17.07,10.88Z"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{DynamicResource DefaultForegroundColor}">
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry
+                            FillRule="EvenOdd"
+                            Figures="m152,68v72c0,6.63-5.37,12-12,12h-4l-65.07-30.35c-4.23-1.97-6.93-6.21-6.93-10.87v-42.78h88Z"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+                <GeometryDrawing Brush="{DynamicResource DefaultForegroundColor}">
+                    <GeometryDrawing.Geometry>
+                        <PathGeometry
+                            FillRule="EvenOdd"
+                            Figures="m152,12v48H64v-18.78c0-4.66,2.7-8.9,6.93-10.87L136,0h4c6.63,0,12,5.37,12,12Z"/>
+                    </GeometryDrawing.Geometry>
+                </GeometryDrawing>
+            </DrawingGroup>
+        </DrawingImage.Drawing>
+    </DrawingImage>
+</ResourceDictionary>
