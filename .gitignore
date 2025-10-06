@@ -2,11 +2,14 @@
 Ink Canvas/obj/
 Ink Canvas/bin/
 
-Ink-Canvas-Better.Core/obj/
-Ink-Canvas-Better.Core/bin/
+Ink_Canvas_Better.Core/obj/
+Ink_Canvas_Better.Core/bin/
 
-Ink-Canvas-Better.Controls/obj/
-Ink-Canvas-Better.Controls/bin/
+Ink_Canvas_Better.Controls/obj/
+Ink_Canvas_Better.Controls/bin/
+
+Ink_Canvas_Better.Old/obj/
+Ink_Canvas_Better.Old/bin/
 
 .vs/
 
