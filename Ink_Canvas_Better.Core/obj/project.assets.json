@@ -64,6 +64,19 @@
             "related": ".xml"
           }
         }
+      },
+      "Ink_Canvas_Better.Controls/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Ink_Canvas_Better.Controls.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ink_Canvas_Better.Controls.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
@@ -160,10 +173,16 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "Ink_Canvas_Better.Controls/1.0.0": {
+      "type": "project",
+      "path": "../Ink_Canvas_Better.Controls/Ink_Canvas_Better.Controls.csproj",
+      "msbuildProject": "../Ink_Canvas_Better.Controls/Ink_Canvas_Better.Controls.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
+      "Ink_Canvas_Better.Controls >= 1.0.0",
       "Microsoft.Office.Interop.PowerPoint >= 15.0.4420.1018",
       "Newtonsoft.Json >= 13.0.4",
       "iNKORE.UI.WPF >= 1.2.8",
@@ -201,7 +220,11 @@
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Github\\Working\\Ink-Canvas-Better\\Ink_Canvas_Better.Controls\\Ink_Canvas_Better.Controls.csproj": {
+              "projectPath": "D:\\Github\\Working\\Ink-Canvas-Better\\Ink_Canvas_Better.Controls\\Ink_Canvas_Better.Controls.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

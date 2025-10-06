@@ -4,7 +4,7 @@
 library
 C#
 .cs
-D:\Github\Working\Ink-Canvas-Better\Ink-Canvas-Better.Controls\obj\Debug\net8.0-windows\
+D:\Github\Working\Ink-Canvas-Better\Ink_Canvas_Better.Controls\obj\Debug\net8.0-windows\
 Ink_Canvas_Better.Controls
 none
 false
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 
 3-42445370
 
-8-503132805
+12265723819
 198-192518753
 Resources\Fonts\Fonts.xaml;Themes\ColorResources_light.xaml;Themes\Generic.xaml;
 

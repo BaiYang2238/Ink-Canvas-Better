@@ -84,8 +84,7 @@ namespace Ink_Canvas_Better.Pages.SettingPages {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;V1.0.0.0;component/pages/settingpages/appearance/appearanc" +
-                    "e.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;component/pages/settingpages/appearance/appearance.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\..\Pages\SettingPages\Appearance\Appearance.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -125,7 +125,7 @@ namespace Ink_Canvas_Better.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;V1.0.0.0;component/controls/icb_colorpicker.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;component/controls/icb_colorpicker.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Controls\ICB_ColorPicker.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -36,11 +36,11 @@ namespace Ink_Canvas_Better.Controls.Controls.Panel
 
         #endregion
 
-        private Binding titleBinding;
-        private Binding isShowHeaderBinding;
+        private Binding? titleBinding;
+        private Binding? isShowHeaderBinding;
 
-        private Binding childBinding;
-        private Binding marginBinding;
-        private Binding staysOpenBinding;
+        private Binding? childBinding;
+        private Binding? marginBinding;
+        private Binding? staysOpenBinding;
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ink_Canvas_Better.Controls")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3407d046e87a28c6c1d5a068a26c438844de4fba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4876d0830122038a2708eb7e2087b83cc642dc1d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ink_Canvas_Better.Controls")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ink_Canvas_Better.Controls")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

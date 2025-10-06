@@ -101,7 +101,7 @@ namespace Ink_Canvas_Better.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Core;component/windows/language.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;component/windows/language.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\Language.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

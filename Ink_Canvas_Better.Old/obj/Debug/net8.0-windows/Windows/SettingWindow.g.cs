@@ -133,7 +133,7 @@ namespace Ink_Canvas_Better.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Core;component/windows/settingwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;component/windows/settingwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\SettingWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -10,12 +10,9 @@ using System.Windows.Controls.Primitives;
 using System.Windows.Data;
 using System.Windows.Markup;
 
-[assembly: XmlnsDefinition("Ink_Canvas_Better.Controls", "Ink_Canvas_Better.Controls.Controls.Panel")]
 namespace Ink_Canvas_Better.Controls.Controls.Panel
 {
     [ContentProperty("Child")]
-    [TemplatePart(Name = "PART_PinButton", Type = typeof(Button))]
-    [TemplatePart(Name = "PART_CloseButton", Type = typeof(Button))]
     public partial class Subpanel : Popup
     {
         static Subpanel()

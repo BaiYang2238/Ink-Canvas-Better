@@ -65,7 +65,7 @@ namespace Ink_Canvas_Better.Controls.Controls.Panel
 
         // this grid is used to keep the gap between the popup and the target element
         // i know offset property exists, but it has some issues when the target element is near the screen edge
-        private readonly Grid _transparentGrid = new Grid
+        private readonly Grid _transparentGrid = new()
         {
             Background = Brushes.Transparent
         };
@@ -79,7 +79,7 @@ namespace Ink_Canvas_Better.Controls.Controls.Panel
             CornerRadius = new CornerRadius(5)
         };
 
-        private readonly Grid _mainGrid = new Grid
+        private readonly Grid _mainGrid = new()
         {
             RowDefinitions =
             {

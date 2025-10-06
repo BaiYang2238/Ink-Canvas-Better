@@ -221,8 +221,7 @@ namespace Ink_Canvas_Better.Windows.FloatingBarIcons {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;V1.0.0.0;component/windows/floatingbaricons/floatingbar_sh" +
-                    "ape.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;component/windows/floatingbaricons/floatingbar_shape.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\FloatingBarIcons\FloatingBar_Shape.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

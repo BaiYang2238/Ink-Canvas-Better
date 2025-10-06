@@ -303,7 +303,7 @@ namespace Ink_Canvas_Better {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Core;component/windows/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Ink_Canvas_Better.Old;component/windows/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Windows\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
