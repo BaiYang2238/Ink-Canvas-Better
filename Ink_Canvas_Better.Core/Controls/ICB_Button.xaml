@@ -1,0 +1,51 @@
+﻿<UserControl x:Class="Ink_Canvas_Better.Core.Controls.ICB_Button"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Ink_Canvas_Better.Core.Controls"
+             xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf"
+             xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+             mc:Ignorable="d" 
+             Padding="0">
+    <Border
+        BorderBrush="{DynamicResource BorderBrush}"
+        Width="64"
+        Height="64"
+        Name="Border"
+        Background="{DynamicResource DefaultBackgroundColor}">
+        <Button
+            Width="58"
+            Height="58"
+            Name="InnerButton"
+            Padding="0"
+            BorderThickness="0"
+            Background="{x:Null}"
+            HorizontalAlignment="Center">
+            <ikw:SimpleStackPanel
+                HorizontalAlignment="Center"
+                Background="Transparent"
+                Orientation="Vertical">
+                <ikw:SimpleStackPanel
+                    Name="SimpleStackPanel_1"
+                    Width="58"
+                    Height="42"
+                    HorizontalAlignment="Center"
+                    Background="Transparent"
+                    Orientation="Vertical">
+                    
+                </ikw:SimpleStackPanel>
+                <TextBlock
+                    Height="16"
+                    Name="TextBlock_1"
+                    FontSize="11"
+                    Foreground="{DynamicResource DefaultForegroundColor}"
+                    Text="Button"
+                    TextAlignment="Center"/>
+            </ikw:SimpleStackPanel>
+
+        </Button>
+
+    </Border>
+    
+</UserControl>

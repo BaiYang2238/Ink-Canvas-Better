@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="DefaultBackgroundColor" Opacity="1" Color="#F0F2F5"/>
+    <SolidColorBrush x:Key="DefaultBackgroundColor_Opacity" Opacity="0.88" Color="#F0F2F5"/>
+    <SolidColorBrush x:Key="DefaultForegroundColor" Opacity="1" Color="#333333"/>
+
+    <SolidColorBrush x:Key="BorderBrush" Opacity="0.85" Color="CadetBlue"/>
+
+    <SolidColorBrush x:Key="ICBButtonStateEnable" Opacity="0.9" Color="LightBlue"/>
+
+    <DrawingImage x:Key="Image.Others.Icon">
+        /Resources/Ink Canvas Better.ico
+    </DrawingImage>
+</ResourceDictionary>

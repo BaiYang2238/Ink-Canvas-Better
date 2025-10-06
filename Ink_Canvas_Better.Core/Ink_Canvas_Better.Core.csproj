@@ -9,20 +9,56 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Page Remove="Resources\Image\DrawShapeImageDictionary.xaml" />
+    <Page Remove="Resources\Image\OthersImageDictionary.xaml" />
+    <Page Remove="Resources\Language\en.xaml" />
+    <Page Remove="Resources\Language\zh-CN.xaml" />
+    <Page Remove="Resources\Language\zh-TW.xaml" />
+    <Page Remove="Resources\Styles\Dark.xaml" />
+    <Page Remove="Resources\Styles\Light.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Image\DrawShapeImageDictionary.xaml" />
+    <Resource Include="Resources\Image\OthersImageDictionary.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="iNKORE.UI.WPF" Version="1.2.8" />
     <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.10.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.9" />
     <PackageReference Include="Microsoft.Office.Interop.PowerPoint" Version="15.0.4420.1018" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Services\" />
     <Folder Include="Helpers\" />
-    <Folder Include="Resources\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Ink_Canvas_Better.Controls\Ink_Canvas_Better.Controls.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Ink Canvas Better.ico">
+      <CopyToOutputDirectory></CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Resources\Language\en.xaml" />
+    <Resource Include="Resources\Language\zh-CN.xaml" />
+    <Resource Include="Resources\Language\zh-TW.xaml" />
+    <Resource Include="Resources\Segoe Fluent Icons.ttf" />
+    <Resource Include="Resources\Styles\Dark.xaml" />
+    <Resource Include="Resources\Styles\Light.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Controls\ICB_CustomColor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Controls\ICB_ToggleButton.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>

@@ -3,10 +3,281 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Ink_Canvas_Better.Core.Windows"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        xmlns:Controls="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
+        xmlns:localControls="clr-namespace:Ink_Canvas_Better.Core.Controls"
+        xmlns:local="clr-namespace:Ink_Canvas_Better.Core"
+        xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf"
+        xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+        xmlns:icb="Ink_Canvas_Better.Controls"
+        Title="{DynamicResource Text_ProductName}"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        Stylus.IsPressAndHoldEnabled="False"
+        Topmost="True"
+        WindowStyle="None"
+        Foreground="Black"
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowState="Maximized">
+    <Window.Resources>
+        <Style x:Key="SubpanelStyle" TargetType="icb:Subpanel">
+            <Setter Property="Margin" Value="0,5,0,5"/>
+            <Setter Property="IsOpen" Value="False"/>
+            <Setter Property="StaysOpen" Value="False"/>
+            <Setter Property="AllowsTransparency" Value="True"/>
+            <Setter Property="Placement" Value="Top"/>
+            <Setter Property="PopupAnimation" Value="Fade"/>
+            <Setter Property="PlacementRectangle" Value="0,0,0,0"/>
+        </Style>
+    </Window.Resources>
+    
+    <Grid
+        Name="MainWindow_Grid"
+        Background="Transparent">
+        <!-- 
+        <InkCanvas
+            x:Name="inkCanvas"
+            Background="Transparent"
+            Cursor="Pen"
+            ForceCursor="False"
+            IsManipulationEnabled="True"
+            EditingModeChanged=""
+            ManipulationCompleted=""
+            ManipulationDelta=""
+            ManipulationInertiaStarting=""
+            ManipulationStarting=""
+            MouseDown=""
+            MouseMove=""
+            MouseUp=""
+            PreviewTouchDown=""
+            PreviewTouchUp=""
+            SelectionChanged=""
+            StrokeCollected=""
+            TouchDown=""
+            TouchMove=""
+            TouchUp=""
+            TouchDown="MainInkCanvas_TouchDown"
+            TouchMove="MainInkCanvas_TouchMove"
+            TouchUp="MainInkCanvas_TouchUp"
+            MouseDown="MainInkCanvas_MouseDown"
+            MouseMove="MainInkCanvas_MouseMove"
+            MouseUp="MainInkCanvas_MouseUp"/>
+        -->
+        <!--  // Canvas //  -->
+        <InkCanvas
+            x:Name="MainInkCanvas"
+            Background="Transparent"
+            Cursor="Pen"
+            ForceCursor="False"
+            IsManipulationEnabled="True"/>
+        <!-- // Floatingbar // -->
+        <ikw:SimpleStackPanel
+            Opacity="0.88"
+            Height="68"
+            Name="floatingBar"
+            Spacing="2"
+            Orientation="Horizontal"
+            HorizontalAlignment="Left" VerticalAlignment="Top">
+            <!-- Render -->
+            <ikw:SimpleStackPanel.RenderTransform>
+                <TranslateTransform/>
+            </ikw:SimpleStackPanel.RenderTransform>
+
+            <Border
+                BorderBrush="{DynamicResource BorderBrush}"
+                BorderThickness="2"
+                CornerRadius="6"
+                Name="Border_Smile">
+                <!--
+                    PreviewMouseDown="SmileIcon_MouseDown"
+                    PreviewMouseUp="SmileIcon_MouseUp"-->
+                <localControls:ICB_Button
+                    x:Name="SmileIcon"
+                    Img="/Resources/Ink Canvas Better.ico"
+                    CornerRadius="5"
+                    IsShowText="False"/>
+            </Border>
+
+            <Border
+                BorderBrush="{DynamicResource BorderBrush}"
+                Background="{DynamicResource DefaultBackgroundColor}"
+                BorderThickness="2"
+                Padding="5,0,5,0"
+                CornerRadius="6"
+                Name="Border_DrawingTools">
+                <ikw:SimpleStackPanel
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+                    <!--
+                        Click="CursorIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="CursorIcon"
+                        Text="{DynamicResource Text_Cursor}"
+                        FontIcon="&#xe8b0;"
+                        IsSqueezeHorizontally="True"/>
+                    <!--
+                        Click="ClearIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="ClearIcon"
+                        Text="{DynamicResource Text_Clear}"
+                        FontIcon="&#xe74d;"
+                        IsSqueezeHorizontally="True"/>
+                    <!-- Pen -->
+                    <icb:Subpanel Name="Popup_Pen"
+                                  Style="{StaticResource SubpanelStyle}"
+                                  PlacementTarget="{Binding ElementName=PenIcon}">
+                       <!-- <floatingBar:FloatingBar_Pen/> -->
+                    </icb:Subpanel>
+                    <!--
+                        Click="PenIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="PenIcon"
+                        Text="{DynamicResource Text_Pen}"
+                        FontIcon="&#xf0c6;"
+                        IsSqueezeHorizontally="True"/>
+                    <!-- Highlighter -->
+                    <icb:Subpanel Name="Popup_Highlighter"
+                                  Style="{StaticResource SubpanelStyle}"
+                                  PlacementTarget="{Binding ElementName=HighlighterIcon}">
+                        <!-- <floatingBar:FloatingBar_Highlighter/> -->
+                    </icb:Subpanel>
+                    <!--
+                        Click="HighlighterIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="HighlighterIcon"
+                        Text="{DynamicResource Text_Highlighter}"
+                        FontIcon="&#xe891;"
+                        IsSqueezeHorizontally="True"/>
+                    <!-- Eraser -->
+                    <icb:Subpanel
+                        Name="Popup_Eraser"
+                        Style="{StaticResource SubpanelStyle}"
+                        PlacementTarget="{Binding ElementName=EraserIcon}">
+                        <!-- <floatingBar:FloatingBar_Eraser/> -->
+                    </icb:Subpanel>
+                    <!--
+                        Click="EraserIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="EraserIcon"
+                        Text="{DynamicResource Text_Eraser}"
+                        FontIcon="&#xe75c;"
+                        IsSqueezeHorizontally="True"/>
+                    <!-- Pick -->
+                    <!--
+                        Click="PickIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="PickIcon"
+                        Text="{DynamicResource Text_Pick}"
+                        FontIcon="&#xe958;"
+                        IsSqueezeHorizontally="True"/>
+                    <!-- Shape -->
+                    <icb:Subpanel Name="Popup_Shape"
+                                  Style="{StaticResource SubpanelStyle}"
+                                  PlacementTarget="{Binding ElementName=ShapeIcon}">
+                        <!-- <floatingBar:FloatingBar_Shape/> -->
+                    </icb:Subpanel>
+                    <!--
+                        Click="ShapeIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="ShapeIcon"
+                        Text="{DynamicResource Text_Shape}"
+                        FontIcon="&#xf158;"
+                        IsSqueezeHorizontally="True"/>
+                    <!-- TODO: merge 'redo' and 'undo' -->
+                    <!--
+                        Click="RedoIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="RedoIcon"
+                        Text="{DynamicResource Text_Redo}"
+                        FontIcon="&#xe7a7;"
+                        IsSqueezeHorizontally="True"/>
+                    <!--
+                        Click="UndoIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="UndoIcon"
+                        Text="{DynamicResource Text_Undo}"
+                        FontIcon="&#xe7a6;"
+                        IsSqueezeHorizontally="True"/>
+                </ikw:SimpleStackPanel>
+            </Border>
+
+            <Border
+                BorderBrush="{DynamicResource BorderBrush}"
+                Background="{DynamicResource DefaultBackgroundColor}"
+                BorderThickness="2"
+                Padding="5,0,5,0"
+                CornerRadius="6"
+                Name="Border_Others">
+                <ikw:SimpleStackPanel
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+                    <!--
+                        Click="WhiteBoardIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="WhiteBoardIcon"
+                        Text="{DynamicResource Text_WhiteBoardIcon}"
+                        FontIcon="&#xe70a;"
+                        IsSqueezeHorizontally="True"/>
+                    <!--
+                        Click="MagnifierIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="MagnifierIcon"
+                        Text="{DynamicResource Text_Magnifier}"
+                        FontIcon="&#xf78b;"
+                        IsSqueezeHorizontally="True"/>
+                    <!--
+                        Click="ToolsIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="ToolsIcon"
+                        Text="{DynamicResource Text_Tools}"
+                        FontIcon="&#xe8a9;"
+                        IsSqueezeHorizontally="True"/>
+                    <!--
+                        Click="HideIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="HideIcon"
+                        Text="{DynamicResource Text_Hide}"
+                        FontIcon="&#xed1a;"
+                        IsSqueezeHorizontally="True"/>
+                </ikw:SimpleStackPanel>
+            </Border>
+
+            <Border
+                BorderBrush="{DynamicResource BorderBrush}"
+                BorderThickness="2"
+                CornerRadius="6"
+                Name="Border_TouchSetting">
+                <ikw:SimpleStackPanel
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+                    <!--
+                        Click="TouchSettingIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="TouchSettingIcon"
+                        Text="{DynamicResource Text_Touch}"
+                        FontIcon="&#xf271;"
+                        CornerRadius="5"/>
+                </ikw:SimpleStackPanel>
+            </Border>
+
+            <Border
+                BorderBrush="{DynamicResource BorderBrush}"
+                BorderThickness="2"
+                CornerRadius="6"
+                Name="Border_ExitPPT">
+                <ikw:SimpleStackPanel
+                    HorizontalAlignment="Center"
+                    Orientation="Horizontal">
+                    <!--
+                        Click="ExitPPTIcon_Click"-->
+                    <localControls:ICB_Button
+                        x:Name="ExitPPTIcon"
+                        Text="{DynamicResource Text_ExitPPT}"
+                        FontIcon="&#xe944;"
+                        CornerRadius="5"/>
+                </ikw:SimpleStackPanel>
+            </Border>
+
+        </ikw:SimpleStackPanel>
     </Grid>
 </Window>

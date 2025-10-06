@@ -1,0 +1,75 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+    <!-- About -->
+    <s:String x:Key="Text_ProductName">Ink Canvas Better</s:String>
+    <s:String x:Key="Text_Author">BaiYang2238</s:String>
+    <s:String x:Key="Text_Author1">theMonthBeforeLastMonth</s:String>
+    <s:String x:Key="Text_CurrentLanguage">English</s:String>
+
+    <!-- Floating bar -->
+    <s:String x:Key="Text_Cursor">Cursor</s:String>
+    <s:String x:Key="Text_Clear">Clear</s:String>
+    <s:String x:Key="Text_Pen">Pen</s:String>
+    <s:String x:Key="Text_Highlighter">Marker</s:String>
+    <s:String x:Key="Text_Eraser">Eraser</s:String>
+    <s:String x:Key="Text_Pick">Pick</s:String>
+    <s:String x:Key="Text_Shape">Shape</s:String>
+    <s:String x:Key="Text_Redo">Redo</s:String>
+    <s:String x:Key="Text_Undo">Undo</s:String>
+    <s:String x:Key="Text_WhiteBoardIcon">Board</s:String>
+    <s:String x:Key="Text_Magnifier">Magnifier</s:String>
+    <s:String x:Key="Text_Tools">Tools</s:String>
+    <s:String x:Key="Text_Hide">Hide</s:String>
+    <s:String x:Key="Text_Touch">Touch</s:String>
+    <s:String x:Key="Text_ExitPPT">Exit</s:String>
+        <!-- subpanel -->
+        <s:String x:Key="Text_ColorPicker">Color Picker</s:String>
+        <s:String x:Key="Text_InkStyle">Ink Style</s:String>
+        <s:String x:Key="Text_InkToShape">Ink to Shape</s:String>
+        <s:String x:Key="Text_Simulative">Simulative</s:String>
+        <s:String x:Key="Text_Customize">Customize</s:String>
+        <s:String x:Key="Text_Alpha">Alpha</s:String>
+        <s:String x:Key="Text_Thickness">Thickness</s:String>
+        <s:String x:Key="Text_EraseByStroke">Stroke</s:String>
+        <s:String x:Key="Text_EraseByPoint">Point</s:String>
+        <s:String x:Key="Text_Square">Square</s:String>
+        <s:String x:Key="Text_Circular">Circular</s:String>
+        <s:String x:Key="Text_2DSahpes">2D Shapes</s:String>
+        <s:String x:Key="Text_3DSahpes">3D Shapes</s:String>
+
+    <!-- Setting -->
+    <s:String x:Key="Text_Setting">Setting</s:String>
+    <s:String x:Key="Text_SettingWindowTitle">Ink Canvas Better Setting</s:String>
+    
+    <s:String x:Key="Text_Home">Home</s:String>
+    <s:String x:Key="Text_StartupAndUpdate">Startup and update</s:String>
+    <s:String x:Key="Text_Appearance">Appearance</s:String>
+    <s:String x:Key="Text_PPT">PPT</s:String>
+    <s:String x:Key="Text_ExperimentalFeatures">Experimental Features</s:String>
+        <!-- Home -->
+        <s:String x:Key="Text_Setting_AppDescription">Ink Canvas Better is a completely open-source and free drawing tool. If you have any suggestions or issues, please visit our GitHub page. Thank you for using it!</s:String>
+        <s:String x:Key="Text_Setting_Author">Author</s:String>
+        <s:String x:Key="Text_Setting_GoToGithubRepository">The source code is hosted on GitHub. Click here to visit our GitHub repository.&#10;Our Github repository: github.com/BaiYang2238/Ink-Canvas-Better</s:String>
+        <s:String x:Key="Text_Setting_Language">Language</s:String>
+        <s:String x:Key="Text_ResetSettings">Reset Settings</s:String>
+        <s:String x:Key="Text_OpenLog">Open Log</s:String>
+        <s:String x:Key="Text_About">About</s:String>
+        <!-- Appearance -->
+        <s:String x:Key="Text_Setting_Theme">Theme</s:String>
+        <s:String x:Key="Text_Setting_Auto">Auto</s:String>
+        <s:String x:Key="Text_Setting_Light">Light</s:String>
+        <s:String x:Key="Text_Setting_Dark">Dark</s:String>
+
+    <!-- Basic -->
+    <s:String x:Key="Text_CloseApplication">Close Application</s:String>
+    <s:String x:Key="Text_RestartApplication">Restart Application</s:String>
+    <s:String x:Key="Text_Default">Default</s:String>
+    <s:String x:Key="Text_Setting_RequireRestarting">Changing this setting requires a software restart.</s:String>
+    <s:String x:Key="Text_Cancel">Cancel</s:String>
+    <s:String x:Key="Text_Confirm">Confirm</s:String>
+    <s:String x:Key="Text_On">On</s:String>
+    <s:String x:Key="Text_Off">Off</s:String>
+    
+</ResourceDictionary>

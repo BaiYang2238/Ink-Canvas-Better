@@ -1,0 +1,75 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    xml:space="preserve">
+    <!-- About -->
+    <s:String x:Key="Text_ProductName">Ink Canvas Better</s:String>
+    <s:String x:Key="Text_Author">BaiYang2238</s:String>
+    <s:String x:Key="Text_Author1">theMonthBeforeLastMonth</s:String>
+    <s:String x:Key="Text_CurrentLanguage">繁體中文</s:String>
+
+    <!-- Floating bar -->
+    <s:String x:Key="Text_Cursor">滑鼠</s:String>
+    <s:String x:Key="Text_Clear">清空</s:String>
+    <s:String x:Key="Text_Pen">鉛筆</s:String>
+    <s:String x:Key="Text_Highlighter">螢光筆</s:String>
+    <s:String x:Key="Text_Eraser">橡皮擦</s:String>
+    <s:String x:Key="Text_Pick">圈選</s:String>
+    <s:String x:Key="Text_Shape">圖形</s:String>
+    <s:String x:Key="Text_Redo">退筆</s:String>
+    <s:String x:Key="Text_Undo">復筆</s:String>
+    <s:String x:Key="Text_WhiteBoardIcon">白板</s:String>
+    <s:String x:Key="Text_Magnifier">放大鏡</s:String>
+    <s:String x:Key="Text_Tools">工具</s:String>
+    <s:String x:Key="Text_Hide">隱藏</s:String>
+    <s:String x:Key="Text_Touch">觸屏設定</s:String>
+    <s:String x:Key="Text_ExitPPT">退出PPT</s:String>
+        <!-- subpanel -->
+        <s:String x:Key="Text_ColorPicker">顏色選擇器</s:String>
+        <s:String x:Key="Text_InkStyle">模擬筆鋒</s:String>
+        <s:String x:Key="Text_InkToShape">墨跡識別</s:String>
+        <s:String x:Key="Text_Simulative">模擬筆鋒</s:String>
+        <s:String x:Key="Text_Customize">自訂</s:String>
+        <s:String x:Key="Text_Alpha">不透明度</s:String>
+        <s:String x:Key="Text_Thickness">粗細</s:String>
+        <s:String x:Key="Text_EraseByStroke">墨蹟擦</s:String>
+        <s:String x:Key="Text_EraseByPoint">面積擦</s:String>
+        <s:String x:Key="Text_Square">方形</s:String>
+        <s:String x:Key="Text_Circular">圓形</s:String>
+        <s:String x:Key="Text_2DSahpes">平面圖形</s:String>
+        <s:String x:Key="Text_3DSahpes">立體圖形</s:String>
+        <s:String x:Key="Text_About">關於</s:String>
+
+    <!-- Setting -->
+    <s:String x:Key="Text_Setting">設定</s:String>
+    <s:String x:Key="Text_SettingWindowTitle">Ink Canvas Better Setting</s:String>
+
+    <s:String x:Key="Text_Home">主頁</s:String>
+    <s:String x:Key="Text_StartupAndUpdate">啟動與更新</s:String>
+    <s:String x:Key="Text_Appearance">外觀</s:String>
+    <s:String x:Key="Text_PPT">PPT</s:String>
+    <s:String x:Key="Text_ExperimentalFeatures">實驗性功能</s:String>
+        <!-- Home -->
+        <s:String x:Key="Text_Setting_AppDescription">Ink Canvas Better 是一個完全開源免費的畫板工具。如果您有任何建議或問題，請訪問我們的 GitHub 頁面。感謝您的使用！</s:String>
+        <s:String x:Key="Text_Setting_Author">作者</s:String>
+        <s:String x:Key="Text_Setting_GoToGithubRepository">原始碼託管於 Github，點此訪問 Github 倉庫&#10;我們的 Github 倉庫：github.com/BaiYang2238/Ink-Canvas-Better</s:String>
+        <s:String x:Key="Text_Setting_Language">語言</s:String>
+        <s:String x:Key="Text_ResetSettings">重設設定</s:String>
+        <s:String x:Key="Text_OpenLog">開啟日誌</s:String>
+        <!-- Appearance -->
+        <s:String x:Key="Text_Setting_Theme">主題</s:String>
+        <s:String x:Key="Text_Setting_Auto">自動</s:String>
+        <s:String x:Key="Text_Setting_Light">淺色</s:String>
+        <s:String x:Key="Text_Setting_Dark">深色</s:String>
+
+    <!-- Basic -->
+    <s:String x:Key="Text_CloseApplication">關閉軟體</s:String>
+    <s:String x:Key="Text_RestartApplication">重啟軟體</s:String>
+    <s:String x:Key="Text_Default">Default</s:String>
+    <s:String x:Key="Text_Setting_RequireRestarting">更改此項設定需要重啟軟體</s:String>
+    <s:String x:Key="Text_Cancel">取消</s:String>
+    <s:String x:Key="Text_Confirm">確認</s:String>
+    <s:String x:Key="Text_On">已啟用</s:String>
+    <s:String x:Key="Text_Off">已停用</s:String>
+
+</ResourceDictionary>
