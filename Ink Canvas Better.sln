@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Controls"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Core", "Ink_Canvas_Better.Core\Ink_Canvas_Better.Core.csproj", "{DE50E170-933A-4ADD-BA9C-7256423D8ECE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Logging", "Ink_Canvas_Better.Logging\Ink_Canvas_Better.Logging.csproj", "{6F226E58-DDF9-4543-9B09-E65F1BF7782B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,26 @@ Global
 		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|x64.Build.0 = Release|Any CPU
 		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|x86.ActiveCfg = Release|Any CPU
 		{DE50E170-933A-4ADD-BA9C-7256423D8ECE}.Release|x86.Build.0 = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|x64.Build.0 = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Debug|x86.Build.0 = Debug|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|ARM.Build.0 = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|ARM64.Build.0 = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|x64.ActiveCfg = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|x64.Build.0 = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|x86.ActiveCfg = Release|Any CPU
+		{6F226E58-DDF9-4543-9B09-E65F1BF7782B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

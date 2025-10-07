@@ -11,6 +11,9 @@ Ink_Canvas_Better.Controls/bin/
 Ink_Canvas_Better.Old/obj/
 Ink_Canvas_Better.Old/bin/
 
+Ink_Canvas_Better.Logging/obj/
+Ink_Canvas_Better.Logging/bin/
+
 .vs/
 
 .claudiaideconfig

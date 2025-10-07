@@ -38,6 +38,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Ink_Canvas_Better.Controls\Ink_Canvas_Better.Controls.csproj" />
+    <ProjectReference Include="..\Ink_Canvas_Better.Logging\Ink_Canvas_Better.Logging.csproj" />
   </ItemGroup>
 
   <ItemGroup>
