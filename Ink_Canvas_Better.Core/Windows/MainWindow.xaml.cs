@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Ink_Canvas_Better.Core.Windows
+namespace Ink_Canvas_Better.Windows
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑

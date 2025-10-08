@@ -8,7 +8,7 @@ using Brush = System.Windows.Media.Brush;
 using FontFamily = System.Windows.Media.FontFamily;
 using Image = System.Windows.Controls.Image;
 
-namespace Ink_Canvas_Better.Core.Controls
+namespace Ink_Canvas_Better.Controls
 {
     /// <summary>
     /// ICB_Button
