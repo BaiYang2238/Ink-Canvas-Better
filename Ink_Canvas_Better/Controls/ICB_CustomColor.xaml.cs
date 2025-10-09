@@ -7,7 +7,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Media;
 
-namespace Ink_Canvas_Better.Core.Controls
+namespace Ink_Canvas_Better.Controls
 {
     public partial class ICB_CustomColor : UserControl
     {

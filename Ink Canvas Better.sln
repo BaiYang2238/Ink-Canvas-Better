@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Old", "In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Controls", "Ink_Canvas_Better.Controls\Ink_Canvas_Better.Controls.csproj", "{8E285A55-2549-4E53-807D-F6A0010E3051}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Core", "Ink_Canvas_Better.Core\Ink_Canvas_Better.Core.csproj", "{DE50E170-933A-4ADD-BA9C-7256423D8ECE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better", "Ink_Canvas_Better\Ink_Canvas_Better.csproj", "{DE50E170-933A-4ADD-BA9C-7256423D8ECE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ink_Canvas_Better.Logging", "Ink_Canvas_Better.Logging\Ink_Canvas_Better.Logging.csproj", "{6F226E58-DDF9-4543-9B09-E65F1BF7782B}"
 EndProject

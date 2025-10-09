@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace Ink_Canvas_Better.Core.Services
+namespace Ink_Canvas_Better.Services
 {
     internal class LogService
     {

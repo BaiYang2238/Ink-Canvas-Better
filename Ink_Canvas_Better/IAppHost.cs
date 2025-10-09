@@ -2,11 +2,12 @@
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
+using System.Threading.Tasks;
 using Ink_Canvas_Better.Logging;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Ink_Canvas_Better.Core
+namespace Ink_Canvas_Better
 {
     internal interface IAppHost
     {
