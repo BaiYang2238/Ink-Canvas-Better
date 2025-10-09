@@ -1,3 +1,11 @@
+> [!IMPORTANT]
+>
+> This project has been migrated to the new repository [ThreeMonthAgo/Ink_Canvas_Better](https://github.com/ThreeMonthAgo/Ink_Canvas_Better). This repository is deprecated, and the following is the previous README.
+> 
+> 此项目已迁移至新仓库 [ThreeMonthAgo/Ink_Canvas_Better](https://github.com/ThreeMonthAgo/Ink_Canvas_Better) ，此仓库已弃用，以下为原先的 README
+
+---
+
 > [!NOTE]
 > 由于 BaiYang2238 近期忙于私事，接下来本项目将会由 ThreeMonthAgo 接手  
 >
